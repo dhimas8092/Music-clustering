@@ -23,8 +23,9 @@ st.set_page_config(
 def load_data():
     df = pd.read_csv('df_sample.csv')
     df['tokens'] = df['tokens'].apply(lambda x: str(x).split())
-    sim_matrix  = np.load('similarity_matrix.npy')
-    dist_matrix = np.load('distance_matrix.npy')
+    matrices    = np.load('matrices.npz')
+    sim_matrix  = matrices['similarity_matrix']
+    dist_matrix = matrices['distance_matrix']
     Z           = np.load('linkage_matrix.npy')
     with open('model_config.json') as f:
         config = json.load(f)
