@@ -1,0 +1,82 @@
+{
+  "best_k": 10,
+  "alpha": 0.3,
+  "beta": 0.5,
+  "gamma": 0.2,
+  "silhouette": 0.5202437289899676,
+  "total_sample": 2000,
+  "genre_list": [
+    "Classical & Ambient",
+    "Electronic",
+    "Folk & Country",
+    "Hip-Hop",
+    "Jazz & Blues",
+    "Latin",
+    "Metal",
+    "Pop",
+    "Rock",
+    "World Music"
+  ],
+  "mood_list": [
+    "Calm",
+    "Dark",
+    "Energetic",
+    "Groovy",
+    "Happy",
+    "Melancholic",
+    "Romantic",
+    "Sad"
+  ],
+  "cluster_summary": [
+    {
+      "cluster": 1,
+      "genre_top": "Classical & Ambient",
+      "mood_top": "Sad"
+    },
+    {
+      "cluster": 2,
+      "genre_top": "Jazz & Blues",
+      "mood_top": "Groovy"
+    },
+    {
+      "cluster": 3,
+      "genre_top": "Folk & Country",
+      "mood_top": "Groovy"
+    },
+    {
+      "cluster": 4,
+      "genre_top": "Pop",
+      "mood_top": "Happy"
+    },
+    {
+      "cluster": 5,
+      "genre_top": "Rock",
+      "mood_top": "Happy"
+    },
+    {
+      "cluster": 6,
+      "genre_top": "Hip-Hop",
+      "mood_top": "Happy"
+    },
+    {
+      "cluster": 7,
+      "genre_top": "World Music",
+      "mood_top": "Happy"
+    },
+    {
+      "cluster": 8,
+      "genre_top": "Latin",
+      "mood_top": "Happy"
+    },
+    {
+      "cluster": 9,
+      "genre_top": "Electronic",
+      "mood_top": "Happy"
+    },
+    {
+      "cluster": 10,
+      "genre_top": "Metal",
+      "mood_top": "Dark"
+    }
+  ]
+}
